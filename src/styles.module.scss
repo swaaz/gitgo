@@ -1,0 +1,16 @@
+@import './styles/colors';
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  background: transparent;
+}
+
+body {
+  margin: 10px 50px;
+  background-color: $bg;
+  color: white;
+}
