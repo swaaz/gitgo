@@ -8,13 +8,11 @@ function App() {
     <Router>
       <div className={styles.App}>
         <switch>
-          <Route path="/profiles">
-            <Profiles />
-          </Route>
+          <Route path="/profiles" component={Profiles}/>
+         
 
-          <Route path="/">
-            <Landing />
-          </Route>
+          <Route path="/" exact component={Landing}/>
+        
         </switch>
       </div>
     </Router>
