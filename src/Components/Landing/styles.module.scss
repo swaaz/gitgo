@@ -14,7 +14,7 @@
 
 .app {
   width: 100%;
-  height: 100vh;
+  height: 90vh;
 
   .row {
     width: 60%;
@@ -64,5 +64,15 @@
     }
     
   }
+  .footer{
+    text-align: end;
+    
+    img:hover{
+      scale: 1.1;
+      transition: all 0.5s ease 0s;
+
+    }
+  }
+  
 }
 

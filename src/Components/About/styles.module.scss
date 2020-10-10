@@ -1,0 +1,19 @@
+@import '../../styles/colors';
+
+.about{
+    .heading{
+        display: flex;
+        flex-direction: column;
+        width: 130px;
+
+        h1{
+            font-size: 2.5rem;
+            width: 135px;
+        }
+
+        .line{
+           
+            border: 1px solid $accent_blue;
+        }
+    }
+}
