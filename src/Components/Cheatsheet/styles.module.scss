@@ -2,6 +2,8 @@
 
 .cheatsheet{
     .heading{
+        margin-top: -100px;
+        position: fixed;
         display: flex;
         flex-direction: column;
         width: 300px;
@@ -18,11 +20,14 @@
     }
     .split{
         width: 100%;
-        margin-top: 50px;
+        margin-top: 120px;
         display: flex;
         flex-direction: row;
 
         .leftSide{
+            // position: static;
+            overflow: hidden; 
+            position: fixed;
             width: 45vw ;
             a{
                 text-decoration: none;
@@ -35,7 +40,9 @@
         }
 
         .rightSide{
-
+            margin-left: 45vw;
+            overflow: auto;
+            
             .stack{
                width: 50vw;
             

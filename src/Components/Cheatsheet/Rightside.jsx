@@ -12,7 +12,7 @@ function Rightside() {
             <div className={Styles.stack} id=''>
 
                 {/* heading */}
-                <Heading heading={'heading'} />
+                <Heading id={'Hello'} heading={'heading'} />
 
                 {/* sub-heading */}
                 <SubHeading subheading={'subhead'} />
@@ -23,14 +23,12 @@ function Rightside() {
 
 
 {/* sub-heading */}
-<SubHeading subheading={'subhead'} />
 
 {/* code snippet and description */}
 <CodeSnippet code={'git init'} description={'heyyy'} />
 
 
 {/* sub-heading */}
-<SubHeading subheading={'subhead'} />
 
 {/* code snippet and description */}
 <CodeSnippet code={'git init'} description={'heyyy'} />
@@ -38,7 +36,6 @@ function Rightside() {
 
 
 {/* sub-heading */}
-<SubHeading subheading={'subhead'} />
 
 {/* code snippet and description */}
 <CodeSnippet code={'git init'} description={'heyyy'} />
@@ -47,21 +44,18 @@ function Rightside() {
 <Heading heading={'heading'} />
 
 {/* sub-heading */}
-<SubHeading subheading={'subhead'} />
 
 {/* code snippet and description */}
 <CodeSnippet code={'git init'} description={'heyyy'} />
 
 
 
-<SubHeading subheading={'subhead'} />
 
 {/* code snippet and description */}
 <CodeSnippet code={'git init'} description={'heyyy'} />
 
 
 {/* sub-heading */}
-<SubHeading subheading={'subhead'} />
 
 {/* code snippet and description */}
 <CodeSnippet code={'git init'} description={'heyyy'} />
@@ -69,19 +63,27 @@ function Rightside() {
 
 
 {/* sub-heading */}
-<SubHeading subheading={'subhead'} />
 
 {/* code snippet and description */}
 <CodeSnippet code={'git init'} description={'heyyy'} />
 
 
-<Heading heading={'heading'} />
+<Heading id={'last'} heading={'heading'} />
 
 {/* sub-heading */}
 <SubHeading subheading={'subhead'} />
 
 {/* code snippet and description */}
 <CodeSnippet code={'git init'} description={'heyyy'} />
+<CodeSnippet code={'git init'} description={'heyyy'} />
+<CodeSnippet code={'git init'} description={'heyyy'} />
+<CodeSnippet code={'git init'} description={'heyyy'} />
+<CodeSnippet code={'git init'} description={'heyyy'} />
+<CodeSnippet code={'git init'} description={'heyyy'} />
+<CodeSnippet code={'git init'} description={'heyyy'} />
+<CodeSnippet code={'git init'} description={'heyyy'} />
+<CodeSnippet code={'git init'} description={'heyyy'} />
+
 
 
             </div>

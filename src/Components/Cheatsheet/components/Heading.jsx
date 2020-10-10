@@ -5,7 +5,7 @@ import Styles from '../styles.module.scss';
 
 function Heading(props) {
     return (
-        <div>
+        <div id={props.id}>
             <p className={Styles.Heading}>{props.heading}</p>
         </div>
     )

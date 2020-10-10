@@ -5,7 +5,7 @@ function Leftside() {
     return (
         <div className={Styles.leftSide}>
 
-            <a href='#'><p>Install GIT</p></a>
+            <a href='#last'><p>Install GIT</p></a>
             <a href=''><p>Configure Tooling</p></a>
             <a href=''><p>Create Repositories</p></a>
             <a href=''><p>Make Changes</p></a>
