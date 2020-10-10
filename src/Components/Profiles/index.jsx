@@ -1,6 +1,8 @@
 import React from 'react';
 import Profile from './profile';
 import Styles from "./styles.module.scss";
+import {profileList} from '../profileList/profileList';
+
 
 function Profiles() {
     return (
@@ -10,8 +12,19 @@ function Profiles() {
                 <div className={Styles.line}></div>
             </div>
             <div className={Styles.profileList}>
-                <Profile />
-                <Profile />
+
+                {profileList.map((item, index) => {
+                    return(
+                        <Profile 
+                        name={item.name} 
+                        profileImage={item.profileImage} 
+                        githubUsername={item.githubUsername} 
+                        instagramUsername={item.instagramUsername} 
+                        twitterUsername={item.twitterUsername} 
+                        linkedinURL={item.linkedinURL} />
+                    );
+                })}
+
             </div>
         </div>
     )
