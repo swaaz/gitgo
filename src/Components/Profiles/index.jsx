@@ -15,7 +15,13 @@ function Profiles() {
 
                 {profileList.map((item, index) => {
                     return(
-                        <Profile name={item.name} profileImage={item.profileImage} githubURL={item.githubURL} instagramURL={item.instagramURL} twitterURL={item.twitterURL} linkedinURL={item.linkedinURL} />
+                        <Profile 
+                        name={item.name} 
+                        profileImage={item.profileImage} 
+                        githubUsername={item.githubUsername} 
+                        instagramUsername={item.instagramUsername} 
+                        twitterUsername={item.twitterUsername} 
+                        linkedinURL={item.linkedinURL} />
                     );
                 })}
 
