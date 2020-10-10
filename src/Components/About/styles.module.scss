@@ -16,4 +16,40 @@
             border: 1px solid $accent_blue;
         }
     }
+
+    .hero{
+        align-items: center;
+        height: 90vh;
+        display: flex;
+        justify-content: space-between;
+
+        .centerSection {
+            text-align: center;
+
+            img{
+
+                width: 250px;
+                border-radius: 50%;
+                border: 5px solid $accent_blue;
+            }
+
+            p{
+                text-align: center;
+                padding: 10px 20%;
+            }
+            .name{
+                padding-top: 20px;;
+                font-size: 1.5rem;
+            }
+
+        }
+
+        .socialMedia{
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            // flex-wrap: nowrap;
+        }
+    }
 }
