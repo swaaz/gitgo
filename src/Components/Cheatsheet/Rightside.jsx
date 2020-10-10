@@ -11,6 +11,7 @@ function Rightside() {
             {/* container */}
             <div className={Styles.stack} id=''>
 
+
                 {/* heading */}
                 <Heading id={'Hello'} heading={'heading'} />
 
@@ -18,10 +19,15 @@ function Rightside() {
                 <SubHeading subheading={'subhead'} />
 
                 {/* code snippet and description */}
-                <CodeSnippet code={'git init'} description={'heyyy'} />
+                <CodeSnippet 
+                    code={'git init'} 
+                    description={'heyyy'} 
+                />
+
+
+
 
             </div>
-
         </div>
     )
 }
