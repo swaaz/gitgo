@@ -14,34 +14,49 @@
             border: 1px solid $accent_blue;
         }
     }
+    .profileList{
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(5,1fr) ;
+        row-gap: 30px;
+        justify-items: center;
+    }
 }
 
 .card{
 
     display: flex;
     flex-direction: column;
-    border: 4px solid $accent_green;
+    border: 5px solid $accent_green;
     width: 230px;
     align-items: center;
     border-radius: 20px;
-    transition: all 0.5s ease 0s;
+    text-align: center;
+    transition: all 0.75s ease 0s;
 
     &:hover{
-        border: 4px solid $accent_blue;
+        border: 5px solid $accent_blue;
         scale: 1.05;
     }
     a {
         text-decoration: none;
         color: white;
     }
-    p {
+    .fullName {
+       padding-top: 5px;
         text-align: center;
-        padding: 10px;
-        font-size: 1.3rem;
+        
+        p{
+            
+            font-size: 1.3rem;
+          
+            
+            
+        }
     }
     .image{
-        margin: 10px 0;
-        width: 120px;
+        margin: 12px 0 0 0;
+        width: 155px;
         border-radius: 50%;
         border: 5px solid $accent_blue;
     }
