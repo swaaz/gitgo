@@ -140,7 +140,7 @@ function Rightside() {
                 <SubHeading 
                     subheading={'Exclude temporary files and path'} />
                 <CodeSnippet 
-                    code={'*.log build/ temp-*'} //tatti💩 check this also no dollar
+                    code={'*.log build/ temp-*'} 
                     description={'A text file named .gitignore suppresses accidental versioning of files and paths matching the specified patterns'} 
                 />
                 <CodeSnippet 

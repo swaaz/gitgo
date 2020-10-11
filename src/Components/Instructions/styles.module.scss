@@ -1,0 +1,52 @@
+@import '../../styles/colors';
+
+.instruction{
+    .heading{
+        display: flex;
+        flex-direction: column;
+        width: 235px;
+
+        h1{
+            font-size: 2.5rem;
+            width: 235px;
+            font-weight: 400;
+        }
+
+        .line{
+           
+            border: 1px solid $accent_blue;
+        }
+    }
+
+    .container{
+        margin: 30px 0;
+
+        width: 80%;
+
+    h1{
+        font-size: 2rem;
+    }
+
+    h2{
+        margin-top: -5px;
+        font-size: 1.4rem;
+        font-weight: 300;
+    }
+
+    h3{
+        font-size: 1.2rem;
+        // width: 80%;
+        font-weight: 400;
+    }
+
+    p{
+        background-color: $faded_white;
+        padding: 10px 10px;
+        color: black;
+        // width: 80%;
+        border-radius: 10px;
+        word-spacing: 2px;
+       
+    }
+    }
+}

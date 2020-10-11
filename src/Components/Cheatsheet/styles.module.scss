@@ -11,6 +11,7 @@
         h1{
             font-size: 2.5rem;
             width: 300px;
+            font-weight: 400;
         }
 
         .line{
@@ -31,11 +32,17 @@
             width: 45vw ;
             a{
                 text-decoration: none;
+
             p{
                 margin: 10px 0;
                 color: $accent_blue;
                 font-size: 1.4rem;
+                // &:active{
+                //     color: white;
+                // }
             }
+
+            
         }
         }
 
