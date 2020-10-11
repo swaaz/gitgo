@@ -7,19 +7,19 @@ import GitHub from '../../assets/logo/github.png';
 function Landing() {
   return (
     <div className={Styles.app}>
-      <div className={Styles.row}>
-        <div>
-          <Navbar />
+        <div className={Styles.row}>
+          <div>
+            <Navbar />
+          </div>
+          <div className={Styles.hero}>
+            <p>Gitify</p>
+          </div>
         </div>
-        <div className={Styles.hero}>
-          <p>Gitify</p>
+        <div className={Styles.footers}>
+            <a href='swaaz.me'>
+              <img src={GitHub} alt='GitHub' />
+            </a>
         </div>
-      </div>
-      <div className={Styles.footer}>
-          <a href='swaaz.me'>
-            <img src={GitHub} alt='GitHub' />
-          </a>
-      </div>
     </div>
   );
 }

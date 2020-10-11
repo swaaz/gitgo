@@ -28,16 +28,7 @@ function Instructions() {
             <h3>You're all set to start adding your profile details🔥</h3>
             <h3>In your downloaded repository📂, Navigate to *src/Components/profileList*. In the profileList.js file you might already see few profiles added, add your profile👽 by refering to the same</h3>
             <h3>Save your file</h3>
-            <code> 
-            {
-                name: 'Nirmal Mathew',
-                profileImage:'https://avatars1.githubusercontent.com/swaaz',
-                githubUsername:'swaaz',
-                instagramUsername:'_swaaz_',
-                twitterUsername:'Swaaz07',
-                linkedinURL:'linkedin.com',
-            },
-            </code>
+            <p>code</p>
             <br/>
             <h3>Stage all the changes you made. Type the following command in your terminal(inside your project directory).</h3>
             <p>git add -A</p><br/>
