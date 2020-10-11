@@ -6,7 +6,7 @@ function Profile(props) {
         <div className={Styles.card}>
            <a href={`https://github.com/${props.githubUsername}`}>
                <div>
-               <img className={Styles.image} src={props.profileImage} alt='profile'></img>
+               <img className={Styles.image} src={`https://avatars1.githubusercontent.com/${props.githubUsername}`} alt='profile'></img>
 
         <div className={Styles.fullName}>
             <p>{props.name}</p>

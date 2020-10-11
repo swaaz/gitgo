@@ -17,7 +17,7 @@ function Profiles() {
                     return(
                         <Profile 
                         name={item.name} 
-                        profileImage={item.profileImage} 
+                        
                         githubUsername={item.githubUsername} 
                         instagramUsername={item.instagramUsername} 
                         twitterUsername={item.twitterUsername} 
