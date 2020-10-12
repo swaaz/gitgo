@@ -30,12 +30,11 @@ function Instructions() {
             <p>
             &#123;<br/>         
             name:  'your_name',<br/>
-            profileImage: 'https://avatars1.githubusercontent.com/your_username',<br/>
             githubUsername: 'gh_username',<br/>
             instagramUsername: 'ig_username',<br/>
             twitterUsername: 'twitter_username',<br/>
-            linkedinURL: 'linkedin.com',<br/>
-            &#125;
+            linkedinURL: 'linkedin.com/your_username',<br/>
+            &#125;,
             </p>
             <h3>Save your file.</h3><br/>
             <h3>Now you must stage all the changes you made. Type the following command in your terminal(inside your project directory) to do so.</h3>
@@ -44,7 +43,7 @@ function Instructions() {
             <p>git commit -m "[your_message]"</p><br/>
             <h3>Lastly, push your changes to the forked repository of your GitHub account🚩.</h3>
             <p>git push -u origin [your_branch_name]</p><br/>
-            <h3>In your web browser, goto the forked copy in your account and create a pull request from the 'new branch' you created into➡️ the swaaz's build branch.</h3>
+            <h3>In your web browser, goto the forked copy in your account and create a pull request from the 'new branch' you created into➡️ the swaaz's profile branch.</h3>
             <h3>Once, you submit your pull request, wait for it to be merged. Once merged successfully👏 you will be able to see your profile in the profile tab.⭐</h3>
             </div>
 
