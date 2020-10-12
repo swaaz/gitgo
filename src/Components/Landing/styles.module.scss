@@ -1,18 +1,6 @@
 @import "../../styles/colors";
 @import "../../styles/mixins";
 
-// .yapp {
-//   position: absolute;
-//   width: 512.59px;
-//   height: 1879.12px;
-//   left: -777px;
-//   top: 606.63px;
-
-//   background: #0d7377;
-//   transform: rotate(-53.99deg);
-// }
-
-
 .landing{
   margin: 0 ;
   padding: 0;
@@ -24,41 +12,34 @@
   background-size: cover;
   background-image: url(../../assets/background/background.jpg);
   overflow-y:hidden;
-  // overflow-y: hidden;
   
-  // .bg1{
-  //   position: absolute;
-  //   background: transparent;
-  //   width: 300px;
-  //   height: 500px;
-  //   // padding-top: -200px;
-  //   z-index: -100;
-  //   background-color: aqua;
-  //   transform :skew(45deg, -10deg);
-  //   margin-top: 300px;
-  //   margin-left: -200px;
-  // }
-  // background-color: aqua;
+  @include respond-below(sm){
+    overflow-y: auto;
+  }
 
-  // .background{
-  //   background: transparent;
-  //   background-size: ;
-  //   margin: 0 -50px;
-  //   width: 100;
-  //   z-index: -100;
-  //   height: 100vh;
-  //   background-image: url(../../assets/background/background.jpg);
-  // }
+  
+  
   .app {
     // background-color: aqua;
     margin: 10px 50px;
     width: 95%;
     height: 84vh;
     
+    @include respond-below(sm){
+      width: 87vw;
+      margin: 10px 20px;
+      height: 49vh;
+    }
+
     .header{
       margin: 0 0 -30px -40px;
       // padding-top: 20px;
       text-align: start;
+
+      @include respond-below(sm){
+        text-align: center;
+        margin: 0 0 
+      }
       img{
         width: 100px;
       &:hover{
@@ -72,14 +53,33 @@
       width: 60%;
       height: inherit;
       display: flex;
+      flex-direction: row;
       justify-content: space-between;
       align-items: center;
+
+      @include respond-below(sm){
+        width: 90%;
+        flex-wrap: wrap;
+        flex-direction: column;
+      }
+      @include respond-between(sm, lg) {
+        width: 66%;
+      }
   
       .navbarSection {
         height: 80%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+
+        @include respond-below(sm){
+          width: 80vw;
+        }
+        // @include respond-below(xs){
+        //   width: 60vw;
+        // }
+        
+        
       
         .line {
           //   position: absolute;
@@ -90,17 +90,45 @@
           //   top: 638px;
       
           border: 2px solid #eeeeee;
-  
+
+          @include respond-below(sm){
+            display: none;
+          }
           
+        }
+
+        .navrow{
+          display: flex;
+          flex-direction: column;
+          
+          @include respond-below(sm){
+            margin: 0 20px 0 0;
+            width: 91vw;
+            justify-content: space-around;
+            flex-direction: row;
+          }
+          @include respond-below(xxs){
+            margin: 0;
+            width: 80vw;
+          }
         }
         nav ul {
           list-style-type: none;
   
            li {
             font-size: 1.4rem;
+
+            @include respond-below(sm){
+              font-size: 0.9rem;
+            }
+            @include respond-below(xs){
+              font-size: 0.7rem;
+            }
             a{
           text-decoration: none;
           color: white;
+          
+          }
           
         }
       }
@@ -110,8 +138,24 @@
   
       .hero {
         p {
-          font-size: 7em;
+          font-size: 7rem;
           letter-spacing: 5px;
+
+          @include respond-between(sm, lg) {
+            padding-left: 55px;
+          }
+          @include respond-below(sm){
+            padding-left: 46px;
+            font-size: 5rem;
+          }
+          @include respond-below(xs){
+            font-size: 4rem;
+          }
+
+          @include respond-below(xxs){
+            font-size: 3rem;
+            
+          }
         }
       }
       
@@ -119,6 +163,19 @@
     .footers{
       text-align: end;
       margin-bottom: 10px;
+
+      @include respond-above(lg){
+        width: 96vw;
+        
+      }
+      @include respond-above(sm){
+        width: 92vw;
+      }
+      @include respond-below(sm){
+        margin-top: 200px;
+        text-align: center;
+        width: 90vw;
+      }
       
       img:hover{
         scale: 1.1;
@@ -129,4 +186,4 @@
     
   }
   
-}
+

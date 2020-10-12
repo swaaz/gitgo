@@ -10,6 +10,7 @@ function Landing() {
     <section className={Styles.landing}>
       
       <div className={Styles.background} />
+      
       <div className={Styles.app}>
 
         <div className={Styles.header}>

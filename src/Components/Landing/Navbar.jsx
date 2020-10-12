@@ -8,8 +8,8 @@ function Navbar() {
   return (
     <div className={Styles.navbarSection}>
       <div className={Styles.line}></div>
-      <nav>
-          <ul>
+      <nav >
+          <ul className={Styles.navrow}>
               <li><Link to='/'>Home</Link></li>
               <li><Link to='/instructions'>Instructions</Link></li>
               <li><Link to='/profiles' >Profiles</Link></li>
