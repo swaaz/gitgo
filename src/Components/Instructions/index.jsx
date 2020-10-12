@@ -1,9 +1,17 @@
 import React from 'react';
 import Styles from './styles.module.scss';
+import Logo from '../../assets/logo/gitifylogo.png';
+
 
 function Instructions() {
     return (
         <div className={Styles.instruction}>
+
+            <div className={Styles.header}>
+                <a href='/'>
+                <img src={Logo} alt='Gitify' />
+                </a>
+            </div>
 
             <div className={Styles.heading}>
                 <h1>Instructions</h1>
@@ -28,7 +36,7 @@ function Instructions() {
             <h3>You're all set to start adding your profile details🔥</h3>
             <h3>In your downloaded repository📂, Navigate to <i>src/Components/profileList</i>. In the profileList.js file you might already see few profiles added, add your profile👽 by refering to the same.</h3>
             <p>
-            &#123;<br/>         
+            &#123; <br/>         
             name:  'your_name',<br/>
             githubUsername: 'gh_username',<br/>
             instagramUsername: 'ig_username',<br/>
