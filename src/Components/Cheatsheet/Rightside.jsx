@@ -33,7 +33,7 @@ function Rightside() {
                 <Heading id={'configureTooling'} heading={'CONFIGURE TOOLING'} />
                 <SubHeading 
                     subheading={'Configure user information for all local repositories'} />
-                <CodeSnippet 
+                <CodeSnippet
                     code={'git config --global user.name "[name]"'} 
                     description={'Sets the name you want attached to your commit transactions'}                     
                 />
