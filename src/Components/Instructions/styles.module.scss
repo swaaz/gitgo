@@ -1,21 +1,47 @@
-@import '../../styles/colors';
+@import "../../styles/colors";
+@import "../../styles/mixins";
 
 .instruction{
     margin: 10px 50px;
+
+    .header{
+        margin: 0 0 -30px -40px;
+        text-align: center;
+        
+  
+        @include respond-below(sm){
+          
+          margin: 0 0 
+        }
+        img{
+          width: 100px;
+        &:hover{
+          scale: 1.1;
+          transition: all 0.5s ease 0s;
+    
+        }
+      }
+    }
     .heading{
         display: flex;
         flex-direction: column;
         width: 235px;
+        @include respond-below(xs){
+            width: 100%;
+            text-align: center;
+            justify-content: center;
+            align-content: center;
+        }
 
         h1{
             font-size: 2.5rem;
-            width: 235px;
             font-weight: 400;
         }
 
         .line{
            
             border: 1px solid $accent_blue;
+            // width: 235px;
         }
     }
 
@@ -23,32 +49,55 @@
         margin: 30px 0;
 
         width: 80%;
+        
+    @include respond-below(md){
+        width: 100%;
+    }
 
     h1{
         font-size: 2rem;
-    }
+
+        @include respond-below(xs){
+            font-size: 1.8rem;
+        }
+    }   
 
     h2{
         margin-top: -5px;
         font-size: 1.4rem;
         font-weight: 300;
+
+        @include respond-below(xs){
+            font-size: 1.2rem;
+        }
     }
 
     h3{
         font-size: 1.2rem;
-        // width: 80%;
         font-weight: 400;
+
+        @include respond-below(xs){
+            font-size: 1.1rem;
+            line-height: 23px;
+        }
     }
 
     p{
         background-color: $faded_white;
-        padding: 10px 10px;
+        padding: 14px 14px;
         color: black;
-        // width: 80%;
         border-radius: 10px;
         word-spacing: 2px;
-        font-family: Roboto Mono,monospace;
+        letter-spacing: 1px;
         font-weight: 400; 
+
+        @include respond-below(xs){
+            
+            font-size: 1.1rem;
+            margin-top: 10px;
+            padding: 10px 10px;
+            
+        }
     }
     }
 }
