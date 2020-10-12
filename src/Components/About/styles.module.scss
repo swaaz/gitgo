@@ -20,7 +20,7 @@
 
     .hero{
         align-items: center;
-        height: 90vh;
+        height: 85vh;
         display: flex;
         justify-content: space-between;
 
@@ -69,5 +69,19 @@
             }
            }
         }
+    }
+    .footer{
+        text-align: center;
+        margin-right: 70px;
+        p{
+            // padding: 0 20px;
+        a{
+            text-decoration: none;
+            color: $accent_blue;
+        }
+        span{
+            color: $accent_blue;
+        }
+    }
     }
 }
