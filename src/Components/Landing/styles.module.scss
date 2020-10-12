@@ -56,14 +56,17 @@
     height: 84vh;
     
     .header{
-      padding-top: 20px;
+      margin: 0 0 -30px -40px;
+      // padding-top: 20px;
       text-align: start;
-
-      img:hover{
+      img{
+        width: 100px;
+      &:hover{
         scale: 1.1;
         transition: all 0.5s ease 0s;
   
       }
+    }
     }
     .row {
       width: 60%;
