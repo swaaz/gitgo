@@ -1,13 +1,39 @@
-@import '../../styles/colors';
+@import "../../styles/colors";
+@import "../../styles/mixins";
 
   
 .profiles{
     margin: 10px 50px;
+
+    .header{
+        margin: 0 0 -30px -40px;
+        text-align: center;
+        
+  
+        @include respond-below(sm){
+          
+          margin: 0 0 
+        }
+        img{
+          width: 100px;
+        &:hover{
+          scale: 1.1;
+          transition: all 0.5s ease 0s;
+    
+        }
+      }
+    }
     .heading{
         display: flex;
         flex-direction: column;
         width: 153px;
         
+        @include respond-below(xs){
+            width: 100%;
+            text-align: center;
+            justify-content: center;
+            align-content: center;
+        }
 
         h1{
             font-size: 2.5rem;
@@ -24,7 +50,21 @@
         display: grid;
         grid-template-columns: repeat(5,1fr) ;
         row-gap: 30px;
+        column-gap: 30px;
         justify-items: center;
+
+        @include respond-below(xlg){
+            grid-template-columns: repeat(4,1fr);
+        }
+        @include respond-below(lg){
+            grid-template-columns: repeat(3, 1fr);
+        }
+        @include respond-below(md){
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @include respond-below(xs){
+            grid-template-columns: repeat(1, 1fr);
+        }
     }
 }
 
@@ -38,6 +78,10 @@
     border-radius: 20px;
     text-align: center;
     transition: all 0.75s ease 0s;
+
+    @include respond-below(xxs){
+        width: 180px;
+    }
 
     &:hover{
         border: 5px solid $accent_blue;
@@ -54,6 +98,10 @@
         p{
             
             font-size: 1.3rem;
+
+            @include respond-below(xxs){
+               font-size: 1rem;
+            }
   
         }
     }
@@ -62,6 +110,10 @@
         width: 155px;
         border-radius: 50%;
         border: 5px solid $accent_blue;
+
+        @include respond-below(xxs){
+            width: 100px;
+        }
     }
 
     .socialMedia {
@@ -72,6 +124,10 @@
         padding: 10px 0;
         img{
             width: 30px;
+
+            @include respond-below(xxs){
+                width: 20px;
+            }
         }
 
     }
