@@ -25,7 +25,7 @@ function Instructions() {
             <h3>Firstly, we'll begin with forking the <a href="https://github.com/swaaz/gitdo">repository</a><span role="img" aria-label="file">📂</span>. You'll find the fork icon on the top-right corner of the page, Click on it.</h3>
             <p>https://github.com/swaaz/gitdo</p><br/>
             <h3>Now, Clone/download the forked repository into your local machine. To do this click the green button saying "Code", copy the URL and paste it in your Gitbash terminal like so.</h3>
-            <p>git clone https://github.com/swaaz/gitdo.git</p><br/>
+            <p>git clone https://github.com/YOUR_USERNAME/gitdo.git</p><br/>
             <h3>cd into the cloned folder and start working on your profile.</h3>
             <p>cd gitdo</p><br/>
             <h3>Before you start adding your profile details<span role="img" aria-label="file">📝</span>in your main branch, let's make changes in the project safely off to one side by creating a new branch.</h3>
