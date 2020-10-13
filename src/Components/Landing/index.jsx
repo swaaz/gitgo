@@ -24,7 +24,7 @@ function Landing() {
             <Navbar />
           </div>
           <div className={Styles.hero}>
-            <p>Gitgo</p>
+            <p>Gitdo</p>
           </div>
         </div>
 
