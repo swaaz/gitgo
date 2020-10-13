@@ -1,15 +1,48 @@
-@import '../../styles/colors';
+@import "../../styles/colors";
+@import "../../styles/mixins";
 
+  
 .about{
     margin: 10px 50px;
+
+    @include respond-below(xxs){
+        margin: 10px 20px;
+    }
+
+    .header{
+        margin: 0 0 -30px -40px;
+        text-align: center;
+        
+  
+        @include respond-below(sm){
+          
+          margin: 0 0 
+        }
+        img{
+          width: 100px;
+        &:hover{
+          scale: 1.1;
+          transition: all 0.5s ease 0s;
+    
+        }
+      }
+    }
+
     .heading{
         display: flex;
         flex-direction: column;
         width: 130px;
 
+        @include respond-below(xs){
+            width: 100%;
+            text-align: center;
+            justify-content: center;
+            align-content: center;
+        }
+
         h1{
             font-size: 2.5rem;
-            width: 135px;
+            // width: 135px;
             font-weight: 400;
         }
 
@@ -23,7 +56,13 @@
         align-items: center;
         height: 85vh;
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
+
+        @include respond-below(xs){
+            flex-direction:column;
+            justify-content:space-evenly;
+        }
 
         .centerSection {
             text-align: center;
@@ -33,18 +72,44 @@
                 width: 250px;
                 border-radius: 50%;
                 border: 5px solid $accent_blue;
+
+                @include respond-below(xs){
+                    width: 200px;
+                    margin-top: 30px;
+                }
+                @include respond-below(xxs){
+                    width:150px;
+                    margin-top:40px;
+                }
             }
 
             p{
                 text-align: center;
                 padding: 10px 25%;
                 font-size: 1.2rem;
+
+                @include respond-below(md){
+                    padding:10px 15%
+                }
+                @include respond-below(xs){
+                    font-size: 1.1rem;
+                    padding: 10px 0 0 0;
+                }
+                @include respond-below(xxs){
+                    font-size: 1rem;
+                }
+
+            
             }
             .name{
                 padding-top: 20px;;
                 font-size: 1.8rem;
                 font-weight: 400;
                 transition: all 0.75s ease 0s;
+
+                @include respond-below(xxs){
+                    font-size: 1.5rem;
+                }
 
                 &:hover{
                     color: $accent_blue;
@@ -58,11 +123,23 @@
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
+
+            @include respond-below(xs){
+                flex-direction: row;
+                width:100%;
+                margin:30px 0;
+            }
+            @include respond-below(xxs){
+                height:auto;
+                }
             
             // flex-wrap: nowrap;
 
            img{
             transition: all 0.5s ease 0s;
+             @include respond-below(xxs){
+                width:40px;
+            }
 
             &:hover{
                 
@@ -74,8 +151,20 @@
     .footer{
         text-align: center;
         margin-right: 70px;
+
+        @include respond-below(xs){
+            margin-right: 5px;
+            // margin-top:20px;
+        }
         p{
-            // padding: 0 20px;
+            @include respond-below(xs){
+               font-size:0.9rem;
+        
+            }
+            @include respond-below(xxs){
+                font-size: 0.8rem;
+            }
+            
         a{
             text-decoration: none;
             color: $accent_blue;
