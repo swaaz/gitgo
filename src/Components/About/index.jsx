@@ -35,16 +35,16 @@ function About() {
 
                 <div className={Styles.socialMedia}>
                     <a href='https://github.com/swaaz'>
-                        <img src={GitHub} />
+                        <img src={GitHub} alt='Github'/>
                     </a>
                     <a href='https://twitter.com/Swaaz07'>
-                        <img src={Twitter} />
+                        <img src={Twitter} alt='Twitter' />
                     </a>
                     <a href='https://www.linkedin.com/in/swasthik-shetty-b50928174/'>
-                        <img src={Linkedin} />
+                        <img src={Linkedin} alt='Linkedin'/>
                     </a>
                     <a href='https://www.instagram.com/_swaaz_/?hl=en'>
-                        <img src={Instagram} />
+                        <img src={Instagram} alt='Instgram' />
                     </a>
                 </div>
 
