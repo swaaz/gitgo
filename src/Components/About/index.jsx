@@ -51,7 +51,7 @@ function About() {
             </div>
             
             <div className={Styles.footer}>
-                <p>Inspired by <a href='https://gitme.js.org/'>Gitme</a> | Build by <span>Swaaz</span></p>
+                <p>Inspired by <a href='https://gitme.js.org/'>Gitme</a> | Built by <span>Swaaz</span></p>
             </div>
             
         </div>
