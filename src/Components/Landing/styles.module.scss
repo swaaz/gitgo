@@ -182,9 +182,6 @@
       text-align: end;
       margin-bottom: 10px;
 
-      // @include respond-height-above(h0){
-      //   margin-top: 3%;
-      // }
 
       @include respond-above(lg){
         width: 96vw;

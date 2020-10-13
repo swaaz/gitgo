@@ -17,16 +17,18 @@ function Rightside() {
                 {/* sub-heading */}
                 <SubHeading 
                     subheading={'GitHub provides desktop clients that include a GUI for the most common repository actions and automatically updating command line edition of Git for advanced scenarios'} />
-
+                <br/><br/>
                 {/* code snippet and description */}
-                <CodeSnippet 
-                    code={''} 
-                    description={''} 
-                />
-                <CodeSnippet 
-                    code={''} 
-                    description={''} 
-                /><br/><br/>
+                <div className={Styles.tag}><p >GitHub for Windows</p></div>
+                <div className={Styles.link} ><a href='https://windows.github.com'>https://windows.github.com</a></div><br/>
+
+                <div className={Styles.tag}><p>GitHub for Mac</p></div>
+                <div className={Styles.link} ><a href='https://mac.github.com'>https://mac.github.com</a></div><br/>
+
+                <div className={Styles.tag}><p>GitHub for All Patforms</p></div>
+                <div className={Styles.link} ><a href='https://git-scm.com'>https://git-scm.com</a></div>
+
+                <br/><br/>
             
 
             

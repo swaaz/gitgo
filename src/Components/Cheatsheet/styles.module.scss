@@ -129,6 +129,21 @@
              @include respond-below(xxs){
                 width: 78vw;
             }
+
+            .tag{
+
+               
+                p{
+                    font-size: 1.3rem;
+                }
+            }
+            
+            .link{
+                a{
+                    text-decoration: none;
+                    color: $accent_blue;
+                }
+            }
             
             .Heading{
                 margin-top: 10px;
@@ -141,8 +156,9 @@
             }
             .subHeading{
                 // max-width: 80%;
-                margin-top: -10px;
+                margin-top: -3px;
                 font-size: 1.2rem;
+                line-height: 23px;
                 color: $accent_blue;
 
                 @include respond-below(md){
@@ -152,6 +168,7 @@
                     margin-top: 0;
                 }
             }
+            
 
            .section{
                margin-top: 20px;
@@ -171,9 +188,13 @@
             .codeDescription{
                 color: $accent_blue;
             }
+            
+            
            }
         }
 
         }
+        
     }
 }
+

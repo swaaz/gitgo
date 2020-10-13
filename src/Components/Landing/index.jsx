@@ -29,7 +29,7 @@ function Landing() {
         </div>
 
         <div className={Styles.footers}>
-            <a href='swaaz.me'>
+            <a href='https://github.com/swaaz/gitify'>
               <img src={GitHub} alt='GitHub' />
             </a>
         </div>

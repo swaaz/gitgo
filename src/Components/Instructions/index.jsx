@@ -34,7 +34,7 @@ function Instructions() {
             <h3>Let's move into the branch you just created.</h3>
             <p>git checkout [branch-name]</p><br/>
             <h3>You're all set to start adding your profile details🔥</h3>
-            <h3>In your downloaded repository📂, Navigate to <i>src/Components/profileList</i>. In the profileList.js file you might already see few profiles added, add your profile👽 by refering to the same.</h3>
+            <h3>In your downloaded repository📂, Navigate to <span>src/Components/profileList</span>. In the <span>profileList.js</span> file you might already see few profiles added, add your profile👽 by refering to the same.</h3>
             <p>
             &#123; <br/>         
             name:  'your_name',<br/>
