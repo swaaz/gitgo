@@ -16,6 +16,9 @@
   @include respond-below(sm){
     overflow-y: auto;
   }
+  @include respond-below(xxs){
+    overflow-x: hidden;
+  }
 
   
   
@@ -50,7 +53,7 @@
     }
     }
     .row {
-      width: 60%;
+      width: 64%;
       height: inherit;
       display: flex;
       flex-direction: row;
@@ -63,8 +66,11 @@
         flex-direction: column;
       }
       @include respond-between(sm, lg) {
-        width: 66%;
+        width: 69%;
       }
+        // @include respond-below(xs){
+        //   width: 65%;
+        // }
   
       .navbarSection {
         height: 80%;
@@ -73,11 +79,11 @@
         justify-content: space-between;
 
         @include respond-below(sm){
-          width: 80vw;
+          width: 93vw;
         }
-        // @include respond-below(xs){
-        //   width: 60vw;
-        // }
+        @include respond-below(xxs){
+          width: 94w;
+        }
         
         
       
@@ -109,7 +115,7 @@
           }
           @include respond-below(xxs){
             margin: 0;
-            width: 80vw;
+            width: 88vw;
           }
         }
         nav ul {
@@ -138,22 +144,23 @@
   
       .hero {
         p {
-          font-size: 7rem;
+          font-size: 10rem;
           letter-spacing: 5px;
 
           @include respond-between(sm, lg) {
             padding-left: 55px;
           }
           @include respond-below(sm){
-            padding-left: 46px;
-            font-size: 5rem;
+            padding-left: 10px;
+            font-size: 7rem;
           }
           @include respond-below(xs){
-            font-size: 4rem;
+            font-size: 6rem;
           }
 
           @include respond-below(xxs){
-            font-size: 3rem;
+            font-size: 5rem;
+            padding-left: 0;
             
           }
         }

@@ -137,8 +137,9 @@
 
            img{
             transition: all 0.5s ease 0s;
+            
              @include respond-below(xxs){
-                width:40px;
+                width: 40px;
             }
 
             &:hover{
