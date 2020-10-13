@@ -4,6 +4,10 @@
 .cheatsheet{
     margin: 10px 50px;
 
+    @include respond-below(xs){
+        margin: 10px 30px
+    }
+
     .header{
         margin: 0 0 -30px -40px;
         text-align: center;
@@ -120,7 +124,10 @@
                width: 50vw;
 
                @include respond-below(sm){
-                width: 80vw;
+                width: 85vw;
+            }
+             @include respond-below(xxs){
+                width: 78vw;
             }
             
             .Heading{
@@ -151,12 +158,12 @@
 
             .snippet{
                 background-color: $faded_white;
-                height: 45px;
-                // width: 80%;
+                // height: 45px;
+                padding: 10px;
                 border-radius: 10px;
 
                 .code{
-                    padding: 10px;
+                    
                     color: black;
                 }
 

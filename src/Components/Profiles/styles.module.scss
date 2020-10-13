@@ -54,7 +54,7 @@
         justify-items: center;
 
         @include respond-above(xlg){
-            grid-template-columns: repeat(1fr);
+            grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
         }
         @include respond-below(xlg){
             grid-template-columns: repeat(4,1fr);
