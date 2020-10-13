@@ -12,6 +12,10 @@
   background-size: cover;
   background-image: url(../../assets/background/background.jpg);
   overflow-y:hidden;
+
+  @include respond-height-below(h1){
+    overflow-y: auto;
+  }
   
   @include respond-below(sm){
     overflow-y: auto;
@@ -27,6 +31,13 @@
     margin: 10px 50px;
     width: 95%;
     height: 84vh;
+
+    @include respond-height-below(h1){
+      height: 91vh;
+    }
+    @include respond-height-below(h2){
+      height: 98vh;
+    }
     
     @include respond-below(sm){
       width: 87vw;
@@ -82,7 +93,7 @@
           width: 93vw;
         }
         @include respond-below(xxs){
-          width: 94w;
+          width: 94vw;
         }
         
         
@@ -170,6 +181,10 @@
     .footers{
       text-align: end;
       margin-bottom: 10px;
+
+      // @include respond-height-above(h0){
+      //   margin-top: 3%;
+      // }
 
       @include respond-above(lg){
         width: 96vw;
