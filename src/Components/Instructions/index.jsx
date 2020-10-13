@@ -1,6 +1,7 @@
 import React from 'react';
 import Styles from './styles.module.scss';
 import Logo from '../../assets/logo/gitifylogo.png';
+import { Link } from 'react-router-dom';
 
 
 function Instructions() {
@@ -21,7 +22,7 @@ function Instructions() {
             <div className={Styles.container}>
             <h1>Hello Folks!👐</h1>
             <h2>Let's get started with your first Pull Request, Bring it on✨</h2><br/>
-            <h3>Firstly, we'll begin with forking the repository. You'll find the fork icon on the top-right corner of the page, Click on it.</h3>
+            <h3>Firstly, we'll begin with forking the <a href="https://github.com/swaaz/gitify">repository📂</a>. You'll find the fork icon on the top-right corner of the page, Click on it.</h3>
             <p>https://github.com/swaaz/gitify</p><br/>
             <h3>Now, Clone/download the forked repository into your local machine. To do this click the green button saying "Code", copy the URL and paste it in your Gitbash terminal like so.</h3>
             <p>git clone https://github.com/swaaz/gitify.git</p><br/>
@@ -51,8 +52,8 @@ function Instructions() {
             <p>git commit -m "[your_message]"</p><br/>
             <h3>Lastly, push your changes to the forked repository of your GitHub account🚩.</h3>
             <p>git push -u origin [your_branch_name]</p><br/>
-            <h3>In your web browser, goto the forked copy in your account and create a pull request from the 'new branch' you created into➡️ the swaaz's profile branch.</h3>
-            <h3>Once, you submit your pull request, wait for it to be merged. Once merged successfully👏 you will be able to see your profile in the profile tab.⭐</h3>
+            <h3>In your web browser, goto the forked copy in your account and create a pull request from the 'new branch' you created into➡️ swaaz's profile branch.</h3>
+            <h3>Once, you submit your pull request, wait for it to be merged. Once merged successfully👏 you will be able to see your profile in the <a href="/Profiles">profile tab</a>.⭐</h3>
             </div>
 
             </div>
