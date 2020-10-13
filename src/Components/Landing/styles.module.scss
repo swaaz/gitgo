@@ -38,6 +38,9 @@
     @include respond-height-below(h2){
       height: 98vh;
     }
+    @include respond-height-below(h3){
+      height: 140vh;
+    }
     
     @include respond-below(sm){
       width: 87vw;
