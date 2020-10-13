@@ -22,12 +22,12 @@ function Instructions() {
             <div className={Styles.container}>
             <h1>Hello Folks!👐</h1>
             <h2>Let's get started with your first Pull Request, Bring it on✨</h2><br/>
-            <h3>Firstly, we'll begin with forking the <a href="https://github.com/swaaz/gitify">repository📂</a>. You'll find the fork icon on the top-right corner of the page, Click on it.</h3>
-            <p>https://github.com/swaaz/gitify</p><br/>
+            <h3>Firstly, we'll begin with forking the <a href="https://github.com/swaaz/gitdo">repository📂</a>. You'll find the fork icon on the top-right corner of the page, Click on it.</h3>
+            <p>https://github.com/swaaz/gitdo</p><br/>
             <h3>Now, Clone/download the forked repository into your local machine. To do this click the green button saying "Code", copy the URL and paste it in your Gitbash terminal like so.</h3>
-            <p>git clone https://github.com/swaaz/gitify.git</p><br/>
+            <p>git clone https://github.com/swaaz/gitdo.git</p><br/>
             <h3>cd into the cloned folder and start working on your profile.</h3>
-            <p>cd gitify</p><br/>
+            <p>cd gitdo</p><br/>
             <h3>Before you start adding your profile details📝in your main branch, let's make changes in the project safely off to one side by creating a new branch.</h3>
             <h3>To create a new branch, type the following command in your terminal.</h3>
             <p>git branch [username-profile]</p>
