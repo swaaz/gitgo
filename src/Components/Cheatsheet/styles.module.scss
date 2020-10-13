@@ -1,23 +1,79 @@
-@import '../../styles/colors';
+@import "../../styles/colors";
+@import "../../styles/mixins";
 
 .cheatsheet{
     margin: 10px 50px;
+
+    .header{
+        margin: 0 0 -30px -40px;
+        text-align: center;
+        
+  
+        @include respond-below(sm){
+          
+          margin: 0 0 
+        }
+        img{
+          width: 100px;
+        &:hover{
+          scale: 1.1;
+          transition: all 0.5s ease 0s;
+    
+        }
+      }
+    }
+
+
     .heading{
-        margin-top: -100px;
+        margin-top: 4px;
         position: fixed;
         display: flex;
         flex-direction: column;
         width: 300px;
 
+        @include respond-below(xs){
+            width: 100%;
+            text-align: center;
+            justify-content: center;
+            align-content: center;
+        }
+        @include respond-below(sm){
+            position: absolute;
+            text-align: center;
+            width: 80%;
+        }
+        @include respond-below(xxs){
+            width: 75%;
+            
+        }
+
         h1{
             font-size: 2.5rem;
             width: 300px;
             font-weight: 400;
+
+            @include respond-between(sm, md){
+                font-size: 2.2rem;
+            }
+            @include respond-below(sm){
+                width: 100%;
+            }
+            @include respond-below(xxs){
+                font-size: 2rem;
+                
+            }
         }
 
         .line{
-           
+           width: 300px;
             border: 1px solid $accent_blue;
+
+            @include respond-between( sm, md){
+                width: 250px;
+            }
+            @include respond-below(sm){
+                width: 100%;
+            }
         }
     }
     .split{
@@ -38,31 +94,56 @@
                 margin: 10px 0;
                 color: $accent_blue;
                 font-size: 1.4rem;
-                // &:active{
-                //     color: white;
-                // }
+                &:hover{
+                    color: white;
+                   
+                }
             }
 
             
         }
+
+        @include respond-below(sm){
+            display: none;
+        }
         }
 
         .rightSide{
-            margin-left: 45vw;
+            margin-left: 35vw;
             overflow: auto;
+
+            @include respond-below(sm){
+                margin-left: 0;
+            }
             
             .stack{
                width: 50vw;
+
+               @include respond-below(sm){
+                width: 80vw;
+            }
             
             .Heading{
                 margin-top: 10px;
                 font-size: 1.7rem;
                 font-weight: 600;
+
+                @include respond-below(md){
+                    font-size: 1.5rem;
+                }
             }
             .subHeading{
+                // max-width: 80%;
                 margin-top: -10px;
                 font-size: 1.2rem;
                 color: $accent_blue;
+
+                @include respond-below(md){
+                    font-size: 1.1rem;
+                }
+                @include respond-below(sm){
+                    margin-top: 0;
+                }
             }
 
            .section{
@@ -71,7 +152,7 @@
             .snippet{
                 background-color: $faded_white;
                 height: 45px;
-                width: 80%;
+                // width: 80%;
                 border-radius: 10px;
 
                 .code{
