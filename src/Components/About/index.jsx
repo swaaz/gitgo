@@ -28,22 +28,22 @@ function About() {
                     <img src='https://avatars1.githubusercontent.com/swaaz' className={Styles.profileImage} alt='Swaaz' />
                     <p className={Styles.name} >Swasthik Shetty</p>
                     <p className={Styles.introduction}>
-                    Hello, sunshinesunny! How are you? Oh, your rays are already making my day brighterrainbow!Hello, sunshinesunny! How are you? Oh, your rays are already making my day brighterrainbow!Hello, sunshinesunny! How are you? Oh, your rays are already making my day brighterrainbow!
+                    An ambitious self-taught developer and designer. I'm a code freak and a tech- enthusiast. I design and build cool stuff in my leisure time. I like to code things from scratch, and enjoy bringing ideas to life. I am a GitHub Campus Expert and I lead communities like Microsoft student community, Hack Club and Sahyadri Open-Source Community.
                     </p>
 
                 </div>
 
                 <div className={Styles.socialMedia}>
-                    <a href=''>
+                    <a href='https://github.com/swaaz'>
                         <img src={GitHub} />
                     </a>
-                    <a href=''>
+                    <a href='https://twitter.com/Swaaz07'>
                         <img src={Twitter} />
                     </a>
-                    <a href=''>
+                    <a href='https://www.linkedin.com/in/swasthik-shetty-b50928174/'>
                         <img src={Linkedin} />
                     </a>
-                    <a href=''>
+                    <a href='https://www.instagram.com/_swaaz_/?hl=en'>
                         <img src={Instagram} />
                     </a>
                 </div>
