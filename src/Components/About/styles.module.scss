@@ -91,7 +91,9 @@
                 }
 
                 @include respond-height-below(h4){
+                   @include respond-below(sm){
                     margin-top: 308px;
+                   }
                 }
             }
 
