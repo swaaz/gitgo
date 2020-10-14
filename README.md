@@ -4,7 +4,7 @@
             <h3>Firstly, we'll begin with forking the <a href="https://github.com/swaaz/gitgo">repository</a><span role="img" aria-label="file">📂</span>. You'll find the fork icon on the top-right corner of the page, Click on it.</h3>
             ```
             https://github.com/swaaz/gitgo
-            ```<br/>
+            ```
             <h3>Now, Clone/download the forked repository into your local machine. To do this click the green button saying "Code", copy the URL and paste it in your Gitbash terminal like so.</h3>
             <p>git clone https://github.com/YOUR_USERNAME/gitgo.git</p><br/>
             <h3>cd into the cloned folder and start working on your profile.</h3>
