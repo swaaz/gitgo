@@ -15,12 +15,12 @@ cd gitgo
 ### Before you start adding your profile details 📝 in your main branch, let's make changes in the project safely off to one side by creating a new branch.
 ### To create a new branch, type the following command in your terminal.
 ```
-git branch [username-profile]
+git branch username-profile
 ```
 ### Replace username with your GitHub username.
 ### Let's move into the branch you just created.
 ```
-git checkout [branch-name]
+git checkout branch-name
 ```
 ### You're all set to start adding your profile details🔥
 ### In your downloaded repository 📂, Navigate to ```src/Components/profileList```. In the ```profileList.js``` file you might already see few profiles added, add your profile👽 by refering to the same.
@@ -41,11 +41,11 @@ git add -A
 ```
 ### Commit✅ the staged changes with a message.
 ```
-git commit -m "[your_message]"
+git commit -m "your_message"
 ```
 ### Lastly, push your changes to the forked repository of your GitHub account🚩.
 ```
-git push -u origin [your_branch_name]
+git push -u origin your_branch_name
 ```
 ### In your web browser, goto the forked copy in your account and create a pull request from the 'new branch' you created into➡️ swaaz's profile branch.
 ### Once, you submit your pull request, wait for it to be merged. Once merged successfully👏 you will be able to see your profile in the <a href="/Profiles">profile tab</a>.⭐
