@@ -1,12 +1,11 @@
 export const profileList = [
-    // {
-    //     name: 'Nirmal Mathew',
-    //     githubUsername:'swaaz',
-    //     instagramUsername:'_swaaz_',
-    //     twitterUsername:'Swaaz07',
-    //     linkedinURL:'linkedin.com',
-    // },
-    
-   
-]
+    {
+        name: 'sharan sk',
+        githubUsername:'sharansk792000',
+        instagramUsername:'sharanskindalkar',
+        twitterUsername:'ShaKindalkar',
+        linkedinURL:'https://www.linkedin.com/in/sharan-sk-89260919b',
+     },
 
+
+]
