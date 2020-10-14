@@ -2,7 +2,7 @@
             <h1>Hello Folks!<span role="img" aria-label="High Five">👐</span></h1>
             <h2>Let's get started with your first Pull Request, Bring it on<span role="img" aria-label="sparkle">✨</span></h2><br/>
             <h3>Firstly, we'll begin with forking the <a href="https://github.com/swaaz/gitgo">repository</a><span role="img" aria-label="file">📂</span>. You'll find the fork icon on the top-right corner of the page, Click on it.</h3>
-            <p>https://github.com/swaaz/gitgo</p><br/>
+            <p>```https://github.com/swaaz/gitgo```</p><br/>
             <h3>Now, Clone/download the forked repository into your local machine. To do this click the green button saying "Code", copy the URL and paste it in your Gitbash terminal like so.</h3>
             <p>git clone https://github.com/YOUR_USERNAME/gitgo.git</p><br/>
             <h3>cd into the cloned folder and start working on your profile.</h3>
@@ -16,7 +16,7 @@
             <h3>You're all set to start adding your profile details<span role="img" aria-label="fire">🔥</span></h3>
             <h3>In your downloaded repository<span role="img" aria-label="file">📂</span>, Navigate to <span>src/Components/profileList</span>. In the <span>profileList.js</span> file you might already see few profiles added, add your profile<span role="img" aria-label="arrow">👽</span> by refering to the same.</h3>
             <p>
-            &#123; <br/>         
+            &#123; <br/> 
             name:  'your_name',<br/>
             githubUsername: 'gh_username',<br/>
             instagramUsername: 'ig_username',<br/>
