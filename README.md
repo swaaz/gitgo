@@ -1,4 +1,4 @@
-# Hello Folks!>👐
+# Hello Folks!👐
 ## Let's get started with your first Pull Request, Bring it on✨
 ### Firstly, we'll begin with forking the <a href="https://github.com/swaaz/gitgo">repository</a>📂. You'll find the fork icon on the top-right corner of the page, Click on it.
 ```
