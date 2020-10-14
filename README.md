@@ -12,7 +12,7 @@ https://github.com/swaaz/gitgo
 ```
 cd gitgo
 ```
-### Before you start adding your profile details<span role="img" aria-label="file">📝</span>in your main branch, let's make changes in the project safely off to one side by creating a new branch.
+### Before you start adding your profile details📝 in your main branch, let's make changes in the project safely off to one side by creating a new branch.
 ### To create a new branch, type the following command in your terminal.
 ```
 git branch [username-profile]
@@ -23,7 +23,7 @@ git branch [username-profile]
 git checkout [branch-name]
 ```
 ### You're all set to start adding your profile details🔥
-### In your downloaded repository📂, Navigate to <span>src/Components/profileList</span>. In the <span>profileList.js</span> file you might already see few profiles added, add your profile👽 by refering to the same.
+### In your downloaded repository📂, Navigate to ```src/Components/profileList```. In the ```profileList.js``` file you might already see few profiles added, add your profile👽 by refering to the same.
 
 ```
 {
