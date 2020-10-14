@@ -7,5 +7,13 @@ export const profileList = [
         linkedinURL:'https://www.linkedin.com/in/sharan-sk-89260919b',
      },
 
+     {
+        name: 'N Rahul Rao',
+        githubUsername:'RahulRao23',
+        instagramUsername:'_.rahulrao._',
+        twitterUsername:' ',
+        linkedinURL:' ',
+     },
+
 
 ]
