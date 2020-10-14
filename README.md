@@ -4,10 +4,9 @@
 ```
 https://github.com/swaaz/gitgo
 ```
-### Now, Clone/download the forked repository into your local machine. To do this click the green button saying "Code", copy the URL and paste it in your Gitbash terminal like so.
-#### git clone 
+### Now, Clone/download the forked repository into your local machine. To do this click the green button saying "Code", copy the URL and paste it in your Gitbash terminal like so. 
 ```
-https://github.com/YOUR_USERNAME/gitgo.git
+ git clone https://github.com/YOUR_USERNAME/gitgo.git
 ```
 ### cd into the cloned folder and start working on your profile.
 ```
