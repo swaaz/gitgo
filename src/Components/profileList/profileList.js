@@ -1,6 +1,6 @@
 export const profileList = [
     {
-        name: 'sharan sk',
+        name: 'Sharan sk',
         githubUsername:'sharansk792000',
         instagramUsername:'sharanskindalkar',
         twitterUsername:'ShaKindalkar',
@@ -8,7 +8,7 @@ export const profileList = [
      },
 
      {
-        name: 'N Rahul Rabindra Rao ',
+        name: 'N Rahul Rao ',
         githubUsername:'RahulRao23',
         instagramUsername:'_.rahulrao._',
         twitterUsername:' ',
@@ -24,7 +24,7 @@ export const profileList = [
      },
 
      {
-      name: 'Rachitha Rai aka leelakka',
+      name: 'Rachitha Rai',
       githubUsername:'RachithaRai',
       instagramUsername:'rachitha_rai_',
       twitterUsername:'',
