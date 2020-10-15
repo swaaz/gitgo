@@ -10,14 +10,14 @@ function App() {
   return (
     <Router>
       <div className={styles.App}>
-        <switch>
+        <Switch>
           <Route path="/profiles" component={Profiles}/>
           <Route path="/Instructions" component={Instructions}/>
           <Route path="/cheatsheet" component={Cheatsheet}/>
           <Route path='/about' component={About} />
           <Route path="/" exact component={Landing}/>
         
-        </switch>
+        </Switch>
       </div>
     </Router>
   );
