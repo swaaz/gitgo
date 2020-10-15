@@ -16,12 +16,20 @@ export const profileList = [
      },
 
      {
-        name: 'Nirmal George Mathew',
+        name: 'Nirmal GM',
         githubUsername:'redfedted',
         instagramUsername:'nirmal_g_m',
         twitterUsername:'NirmalgMathew ',
         linkedinURL:'https://www.linkedin.com/in/nirmal-george-mathew-170b62177/ ',
      },
+
+     {
+      name: 'Rachitha Rai',
+      githubUsername:'RachithaRai',
+      instagramUsername:'rachitha_rai_',
+      twitterUsername:'',
+      linkedinURL:'https://www.linkedin.com/in/rachitha-rai-70040317b/',
+   },
 
 
 ]
