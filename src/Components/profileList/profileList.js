@@ -8,7 +8,7 @@ export const profileList = [
      },
 
      {
-        name: 'N Rahul Rao',
+        name: 'N Rahul Rabindra Rao ',
         githubUsername:'RahulRao23',
         instagramUsername:'_.rahulrao._',
         twitterUsername:' ',
@@ -16,7 +16,7 @@ export const profileList = [
      },
 
      {
-        name: 'Nirmal GM',
+        name: 'Nirmal George Mathew',
         githubUsername:'redfedted',
         instagramUsername:'nirmal_g_m',
         twitterUsername:'NirmalgMathew ',
@@ -24,7 +24,7 @@ export const profileList = [
      },
 
      {
-      name: 'Rachitha Rai',
+      name: 'Rachitha Rai aka leelakka',
       githubUsername:'RachithaRai',
       instagramUsername:'rachitha_rai_',
       twitterUsername:'',
@@ -37,6 +37,13 @@ export const profileList = [
       twitterUsername:'vishnu_nvx',
       linkedinURL:'',
    },
+   {
+      name: 'Nithin Mahendran',
+      githubUsername: 'nithinmahendran',
+      instagramUsername: 'nithinmahendran',
+      twitterUsername: 'nithinmahendran',
+      linkedinURL: 'linkedin.com/nithinmahendran',
+      },
 
 
 
