@@ -30,6 +30,14 @@ export const profileList = [
       twitterUsername:'',
       linkedinURL:'https://www.linkedin.com/in/rachitha-rai-70040317b/',
    },
+   {
+      name: 'Vishnu N V',
+      githubUsername:'carbonxx',
+      instagramUsername:'ig_carbonx',
+      twitterUsername:'vishnu_nvx',
+      linkedinURL:'',
+   },
+
 
 
 ]
