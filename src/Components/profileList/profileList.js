@@ -15,6 +15,13 @@ export const profileList = [
       linkedinURL:' ',
    },
 
+   {
+      name: 'Shravya Shetty',
+      githubUsername: 'Shravyarshetty',
+      instagramUsername: 'shravya.r.shetty',
+      twitterUsername: '',
+      linkedinURL: 'linkedin.com/',
+   },
 
      {
         name: 'Nirmal GM',
@@ -44,13 +51,6 @@ export const profileList = [
       instagramUsername: 'nithinmahendran',
       twitterUsername: 'nithinmahendran',
       linkedinURL: 'linkedin.com/nithinmahendran',
-   },
-   {
-      name: 'Shravya Shetty',
-      githubUsername: 'Shravyarshetty',
-      instagramUsername: 'shravya.r.shetty',
-      twitterUsername: '',
-      linkedinURL: 'linkedin.com/',
    },
 
 
