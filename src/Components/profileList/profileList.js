@@ -15,8 +15,9 @@ export const profileList = [
       linkedinURL:' ',
    },
 
-   {
-        name: 'Nirmal George Mathew',
+
+     {
+        name: 'Nirmal GM',
         githubUsername:'redfedted',
         instagramUsername:'nirmal_g_m',
         twitterUsername:'NirmalgMathew ',
