@@ -90,23 +90,38 @@
 
         
     }
-
-    p{
+    .code{
         background-color: $faded_white;
-        padding: 14px 14px;
-        color: black;
-        border-radius: 10px;
-        word-spacing: 2px;
-        letter-spacing: 1px;
-        font-weight: 400; 
+                // height: 45px;
+                padding: 10px;
+                border-radius: 10px;
+                margin-bottom: 20px;
+        
+            p{
+                color: black;
+                @include respond-below(xs)
+                {
+                    overflow-x: scroll;
+                }
+            }
+    
+    // p{
+    //     background-color: $faded_white;
+    //     padding: 14px 14px;
+    //     color: black;
+    //     border-radius: 10px;
+    //     word-spacing: 2px;
+    //     letter-spacing: 1px;
+    //     font-weight: 400; 
 
-        @include respond-below(xs){
+    //     @include respond-below(xs){
             
-            font-size: 1.1rem;
-            margin-top: 10px;
-            padding: 10px 10px;
+    //         font-size: 1.1rem;
+    //         margin-top: 10px;
+    //         padding: 10px 10px;
             
-        }
+    //     }
+    // }
     }
     span{
         color: $accent_blue;
