@@ -52,7 +52,12 @@ export const profileList = [
       twitterUsername: 'nithinmahendran',
       linkedinURL: 'linkedin.com/nithinmahendran',
    },
-
-
+   {
+      name: 'Gowtham P B',
+      githubUsername:'GowthamPB',
+      instagramUsername:'gowtham_pb',
+      twitterUsername:'Gowtham_PB',
+      linkedinURL:'https://www.linkedin.com/in/gowtham-pb-325677191',
+   },
 
 ]
