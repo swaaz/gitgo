@@ -59,5 +59,12 @@ export const profileList = [
       twitterUsername:'Gowtham_PB',
       linkedinURL:'https://www.linkedin.com/in/gowtham-pb-325677191',
    },
+   {
+      name: 'Fawaz Abid Hussain',
+      githubUsername: 'fazxza',
+      instagramUsername: 'fauwara',
+      twitterUsername: 'Fazxza',
+      linkedinURL: 'https://www.linkedin.com/mwlite/in/fawaz-abid-606962198',
+   },
 
 ]
