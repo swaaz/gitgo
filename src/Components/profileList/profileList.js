@@ -66,5 +66,12 @@ export const profileList = [
       twitterUsername: 'Fazxza',
       linkedinURL: 'https://www.linkedin.com/mwlite/in/fawaz-abid-606962198',
    },
+   {
+      name: 'Deeksha Shetty',
+      githubUsername: 'Dharmaksha',
+      instagramUsername: '',
+      twitterUsername: '',
+      linkedinURL: 'https://www.linkedin.com/mwlite/in/',
+   },
 
 ]
