@@ -15,6 +15,13 @@ export const profileList = [
       linkedinURL:' ',
    },
 
+   {
+      name: 'Shravya Shetty',
+      githubUsername: 'Shravyarshetty',
+      instagramUsername: 'shravya.r.shetty',
+      twitterUsername: '',
+      linkedinURL: 'linkedin.com/',
+   },
 
      {
         name: 'Nirmal GM',
@@ -46,13 +53,25 @@ export const profileList = [
       linkedinURL: 'linkedin.com/nithinmahendran',
    },
    {
-      name: 'Shravya Shetty',
-      githubUsername: 'Shravyarshetty',
-      instagramUsername: 'shravya.r.shetty',
-      twitterUsername: '',
-      linkedinURL: 'linkedin.com/',
+      name: 'Gowtham P B',
+      githubUsername:'GowthamPB',
+      instagramUsername:'gowtham_pb',
+      twitterUsername:'Gowtham_PB',
+      linkedinURL:'https://www.linkedin.com/in/gowtham-pb-325677191',
    },
-
-
+   {
+      name: 'Fawaz Abid Hussain',
+      githubUsername: 'fazxza',
+      instagramUsername: 'fauwara',
+      twitterUsername: 'Fazxza',
+      linkedinURL: 'https://www.linkedin.com/mwlite/in/fawaz-abid-606962198',
+   },
+   {
+      name: 'Deeksha Shetty',
+      githubUsername: 'Dharmaksha',
+      instagramUsername: '',
+      twitterUsername: '',
+      linkedinURL: 'https://www.linkedin.com/mwlite/in/',
+   },
 
 ]
