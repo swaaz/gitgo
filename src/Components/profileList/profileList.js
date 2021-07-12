@@ -79,13 +79,20 @@ export const profileList = [
       instagramUsername: 'sony18_99',
       twitterUsername: 'Basavarajeshw20',
       linkedinURL: 'https://www.linkedin.com/in/basavarajeshwari-ambi-1b223016a/',
+  },
+ {
+    name: 'K Anusha Rao',
+    githubUsername: 'K-ANUSHA-RAO',
+    instagramUsername: 'anu_sha_45',
+    twitterUsername: '',
+    linkedinURL: 'https://www.linkedin.com/in/k-anusha-rao-92074417a/',
 },
-   {
-      name: 'K Anusha Rao',
-      githubUsername: 'K-ANUSHA-RAO',
-      instagramUsername: 'anu_sha_45',
-      twitterUsername: '',
-      linkedinURL: 'https://www.linkedin.com/in/k-anusha-rao-92074417a/',
-	},
+{
+   name: 'Sumanth Kumar S',
+   githubUsername: 'SumanthKumarS',
+   instagramUsername: 'sumanthshettigar20k',
+   twitterUsername: '',
+   linkedinURL: 'www.linkedin.com/in/sumanth-kumar-s-57248320a',
+   },
 
 ]
