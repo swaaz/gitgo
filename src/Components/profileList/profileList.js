@@ -73,5 +73,12 @@ export const profileList = [
       twitterUsername: '',
       linkedinURL: 'https://www.linkedin.com/mwlite/in/',
    },
+   {
+      name: 'Basavarajeshwari Ambi',
+      githubUsername: 'Basavarajeshwari-Ambi',
+      instagramUsername: 'sony18_99',
+      twitterUsername: 'Basavarajeshw20',
+      linkedinURL: 'https://www.linkedin.com/in/basavarajeshwari-ambi-1b223016a/',
+},
 
 ]
