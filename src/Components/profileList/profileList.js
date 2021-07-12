@@ -80,5 +80,12 @@ export const profileList = [
       twitterUsername: 'Basavarajeshw20',
       linkedinURL: 'https://www.linkedin.com/in/basavarajeshwari-ambi-1b223016a/',
 },
+   {
+      name: 'K Anusha Rao',
+      githubUsername: 'K-ANUSHA-RAO',
+      instagramUsername: 'anu_sha_45',
+      twitterUsername: '',
+      linkedinURL: 'https://www.linkedin.com/in/k-anusha-rao-92074417a/',
+	},
 
 ]
