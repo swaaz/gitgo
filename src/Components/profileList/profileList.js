@@ -1,18 +1,19 @@
 export const profileList = [
-   {
-      name: 'N Rahul Rao ',
-      githubUsername:'RahulRao23',
-      instagramUsername:'_.rahulrao._',
-      twitterUsername:' ',
-      linkedinURL:' ',
-   },
-
+   
    {
       name: 'Shravya Shetty',
       githubUsername: 'Shravyarshetty',
       instagramUsername: 'shravya.r.shetty',
       twitterUsername: '',
       linkedinURL: 'linkedin.com/',
+   },
+
+   {
+      name: 'N Rahul Rao ',
+      githubUsername:'RahulRao23',
+      instagramUsername:'_.rahulrao._',
+      twitterUsername:' ',
+      linkedinURL:' ',
    },
 
      {
