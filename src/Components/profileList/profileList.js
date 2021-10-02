@@ -15,6 +15,13 @@ export const profileList = [
       linkedinURL:' ',
    },
 
+   {
+      name: 'Shravya Shetty',
+      githubUsername: 'Shravyarshetty',
+      instagramUsername: 'shravya.r.shetty',
+      twitterUsername: '',
+      linkedinURL: 'linkedin.com/',
+   },
 
      {
         name: 'Nirmal GM',
@@ -46,13 +53,46 @@ export const profileList = [
       linkedinURL: 'linkedin.com/nithinmahendran',
    },
    {
-      name: 'Shravya Shetty',
-      githubUsername: 'Shravyarshetty',
-      instagramUsername: 'shravya.r.shetty',
-      twitterUsername: '',
-      linkedinURL: 'linkedin.com/',
+      name: 'Gowtham P B',
+      githubUsername:'GowthamPB',
+      instagramUsername:'gowtham_pb',
+      twitterUsername:'Gowtham_PB',
+      linkedinURL:'https://www.linkedin.com/in/gowtham-pb-325677191',
    },
-
-
+   {
+      name: 'Fawaz Abid Hussain',
+      githubUsername: 'fazxza',
+      instagramUsername: 'fauwara',
+      twitterUsername: 'Fazxza',
+      linkedinURL: 'https://www.linkedin.com/mwlite/in/fawaz-abid-606962198',
+   },
+   {
+      name: 'Deeksha Shetty',
+      githubUsername: 'Dharmaksha',
+      instagramUsername: '',
+      twitterUsername: '',
+      linkedinURL: 'https://www.linkedin.com/mwlite/in/',
+   },
+   {
+      name: 'Basavarajeshwari Ambi',
+      githubUsername: 'Basavarajeshwari-Ambi',
+      instagramUsername: 'sony18_99',
+      twitterUsername: 'Basavarajeshw20',
+      linkedinURL: 'https://www.linkedin.com/in/basavarajeshwari-ambi-1b223016a/',
+  },
+ {
+    name: 'K Anusha Rao',
+    githubUsername: 'K-ANUSHA-RAO',
+    instagramUsername: 'anu_sha_45',
+    twitterUsername: '',
+    linkedinURL: 'https://www.linkedin.com/in/k-anusha-rao-92074417a/',
+},
+{
+   name: 'Sumanth Kumar S',
+   githubUsername: 'SumanthKumarS',
+   instagramUsername: 'sumanthshettigar20k',
+   twitterUsername: '',
+   linkedinURL: 'www.linkedin.com/in/sumanth-kumar-s-57248320a',
+   },
 
 ]
