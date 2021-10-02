@@ -24,6 +24,14 @@ export const profileList = [
    },
 
    {
+      name: 'Sharan sk',
+      githubUsername:'sharansk792000',
+      instagramUsername:'sharanskindalkar',
+      twitterUsername:'ShaKindalkar',
+      linkedinURL:'https://www.linkedin.com/in/sharan-sk-89260919b',
+   },
+
+   {
       name: 'Rachitha Rai',
       githubUsername:'RachithaRai',
       instagramUsername:'rachitha_rai_',
