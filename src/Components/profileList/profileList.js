@@ -15,15 +15,6 @@ export const profileList = [
       twitterUsername:' ',
       linkedinURL:' ',
    },
-
-     {
-        name: 'Nirmal GM',
-        githubUsername:'redfedted',
-        instagramUsername:'nirmal_g_m',
-        twitterUsername:'NirmalgMathew ',
-        linkedinURL:'https://www.linkedin.com/in/nirmal-george-mathew-170b62177/ ',
-   },
-
    {
       name: 'Sharan sk',
       githubUsername:'sharansk792000',
@@ -31,6 +22,13 @@ export const profileList = [
       twitterUsername:'ShaKindalkar',
       linkedinURL:'https://www.linkedin.com/in/sharan-sk-89260919b',
    },
+   {
+         name: 'Avni Shyam',
+         githubUsername: 'avnishyam',
+         instagramUsername: 'avni.shyam',
+         twitterUsername: '@AvniShyam_2000',
+         linkedinURL: 'https://www.linkedin.com/in/avni-shyam/',
+    },
 
    {
       name: 'Rachitha Rai',
@@ -45,6 +43,13 @@ export const profileList = [
       instagramUsername:'ig_carbonx',
       twitterUsername:'vishnu_nvx',
       linkedinURL:'',
+   },
+   {
+        name: 'Nirmal GM',
+        githubUsername:'redfedted',
+        instagramUsername:'nirmal_g_m',
+        twitterUsername:'NirmalgMathew ',
+        linkedinURL:'https://www.linkedin.com/in/nirmal-george-mathew-170b62177/ ',
    },
    {
       name: 'Nithin Mahendran',
