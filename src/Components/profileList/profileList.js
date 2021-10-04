@@ -102,5 +102,12 @@ export const profileList = [
       twitterUsername: '',
       linkedinURL: 'https://www.linkedin.com/in/akhilesh-naik-024475219/',
       },
+      {
+         name: 'Avni Shyam',
+         githubUsername: 'avnishyam',
+         instagramUsername: 'avni.shyam',
+         twitterUsername: '@AvniShyam_2000',
+         linkedinURL: 'https://www.linkedin.com/in/avni-shyam/',
+         },
 
 ]
