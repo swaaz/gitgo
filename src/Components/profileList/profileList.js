@@ -14,6 +14,7 @@ export const profileList = [
       instagramUsername:'_.rahulrao._',
       twitterUsername:' ',
       linkedinURL:' ',
+
    },
 
      {
@@ -23,7 +24,6 @@ export const profileList = [
         twitterUsername:'NirmalgMathew ',
         linkedinURL:'https://www.linkedin.com/in/nirmal-george-mathew-170b62177/ ',
    },
-
    {
       name: 'Sharan sk',
       githubUsername:'sharansk792000',
@@ -31,6 +31,13 @@ export const profileList = [
       twitterUsername:'ShaKindalkar',
       linkedinURL:'https://www.linkedin.com/in/sharan-sk-89260919b',
    },
+   {
+         name: 'Avni Shyam',
+         githubUsername: 'avnishyam',
+         instagramUsername: 'avni.shyam',
+         twitterUsername: '@AvniShyam_2000',
+         linkedinURL: 'https://www.linkedin.com/in/avni-shyam/',
+    },
 
    {
       name: 'Rachitha Rai',
@@ -45,6 +52,13 @@ export const profileList = [
       instagramUsername:'ig_carbonx',
       twitterUsername:'vishnu_nvx',
       linkedinURL:'',
+   },
+   {
+        name: 'Nirmal GM',
+        githubUsername:'redfedted',
+        instagramUsername:'nirmal_g_m',
+        twitterUsername:'NirmalgMathew ',
+        linkedinURL:'https://www.linkedin.com/in/nirmal-george-mathew-170b62177/ ',
    },
    {
       name: 'Nithin Mahendran',
@@ -81,26 +95,27 @@ export const profileList = [
       twitterUsername: 'Basavarajeshw20',
       linkedinURL: 'https://www.linkedin.com/in/basavarajeshwari-ambi-1b223016a/',
   },
- {
+  {
     name: 'K Anusha Rao',
     githubUsername: 'K-ANUSHA-RAO',
     instagramUsername: 'anu_sha_45',
     twitterUsername: '',
     linkedinURL: 'https://www.linkedin.com/in/k-anusha-rao-92074417a/',
-},
-{
+ },
+ {
    name: 'Sumanth Kumar S',
    githubUsername: 'SumanthKumarS',
    instagramUsername: 'sumanthshettigar20k',
    twitterUsername: '',
    linkedinURL: 'www.linkedin.com/in/sumanth-kumar-s-57248320a',
-   },
-   {
-      name: 'Akhilesh M',
-      githubUsername: 'akhilesh27',
-      instagramUsername: '_shadow_fiend__',
-      twitterUsername: '',
-      linkedinURL: 'https://www.linkedin.com/in/akhilesh-naik-024475219/',
-      },
+ },
+ {
+   name: 'Akhilesh M',
+   githubUsername: 'akhilesh27',
+   instagramUsername: '_shadow_fiend__',
+   twitterUsername: '',
+   linkedinURL: 'https://www.linkedin.com/in/akhilesh-naik-024475219/',
+ },
+      
 
 ]
