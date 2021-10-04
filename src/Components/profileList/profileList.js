@@ -94,6 +94,13 @@ export const profileList = [
    twitterUsername: '',
    linkedinURL: 'https://www.linkedin.com/in/akhilesh-naik-024475219/',
  },
+ {
+   name: 'Nithin Mahendran',
+   githubUsername: 'nithinmahendran',
+   instagramUsername: 'nithinmahendran',
+   twitterUsername: 'nithinmahendran',
+   linkedinURL: 'linkedin.com/nithinmahendran',
+},
       
 
 ]
