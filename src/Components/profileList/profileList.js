@@ -90,7 +90,7 @@ export const profileList = [
    {
       name: 'Akhilesh M',
       githubUsername: 'akhilesh27',
-      instagramUsername: '_shadow_fiend__',
+      instagramUsername: 'Akhilesh Naik',
       twitterUsername: '',
       linkedinURL: 'https://www.linkedin.com/in/akhilesh-naik-024475219/',
       },
