@@ -88,13 +88,6 @@ export const profileList = [
    linkedinURL: 'www.linkedin.com/in/sumanth-kumar-s-57248320a',
  },
  {
-   name: 'Akhilesh M',
-   githubUsername: 'akhilesh27',
-   instagramUsername: '_shadow_fiend__',
-   twitterUsername: '',
-   linkedinURL: 'https://www.linkedin.com/in/akhilesh-naik-024475219/',
- },
- {
    name: 'Nithin Mahendran',
    githubUsername: 'nithinmahendran',
    instagramUsername: 'nithinmahendran',
