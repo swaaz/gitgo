@@ -88,26 +88,25 @@ export const profileList = [
    linkedinURL: 'www.linkedin.com/in/sumanth-kumar-s-57248320a',
  },
  {
-   name: 'Akhilesh M',
-   githubUsername: 'akhilesh27',
-   instagramUsername: '_shadow_fiend__',
-   twitterUsername: '',
-   linkedinURL: 'https://www.linkedin.com/in/akhilesh-naik-024475219/',
- },
- {
    name: 'Nithin Mahendran',
    githubUsername: 'nithinmahendran',
    instagramUsername: 'nithinmahendran',
    twitterUsername: 'nithinmahendran',
    linkedinURL: 'linkedin.com/nithinmahendran',
 },
-   {
-      name: 'Rachitha Rai',
-      githubUsername:'RachithaRai',
-      instagramUsername:'rachitha_rai_',
-      twitterUsername:'',
-      linkedinURL:'https://www.linkedin.com/in/rachitha-rai-70040317b/',
-   },
-      
+{
+  name: 'Akhilesh M',
+  githubUsername: 'akhilesh27',
+  instagramUsername: 'Akhilesh Naik',
+  twitterUsername: '',
+  linkedinURL: 'https://www.linkedin.com/in/akhilesh-naik-024475219/',
+  },
+  {
+  name: 'Rachitha Rai',
+  githubUsername:'RachithaRai',
+  instagramUsername:'rachitha_rai_',
+  twitterUsername:'',
+  linkedinURL:'https://www.linkedin.com/in/rachitha-rai-70040317b/',
+},
 
 ]
