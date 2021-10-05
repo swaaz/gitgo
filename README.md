@@ -48,4 +48,4 @@ git commit -m "your_message"
 git push -u origin your_branch_name
 ```
 ### In your web browser, goto the forked copy in your account and create a pull request from the 'new branch' you created into➡️ swaaz's profile branch.
-### Once, you submit your pull request, wait for it to be merged. Once merged successfully👏 you will be able to see your profile in the <a href="https://gitgo.swaaz.me/profiles">profile tab</a>.⭐
+### Once, you submit your pull request, wait for it to be merged. Once merged successfully👏 you will be able to see your profile in the <a href="https://gitgo.swaaz.dev/profiles">profile tab</a>.⭐

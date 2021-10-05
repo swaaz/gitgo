@@ -14,23 +14,22 @@ export const profileList = [
       instagramUsername:'_.rahulrao._',
       twitterUsername:' ',
       linkedinURL:' ',
-   },
 
-     {
-        name: 'Nirmal GM',
-        githubUsername:'redfedted',
-        instagramUsername:'nirmal_g_m',
-        twitterUsername:'NirmalgMathew ',
-        linkedinURL:'https://www.linkedin.com/in/nirmal-george-mathew-170b62177/ ',
    },
-
    {
-      name: 'Rachitha Rai',
-      githubUsername:'RachithaRai',
-      instagramUsername:'rachitha_rai_',
-      twitterUsername:'',
-      linkedinURL:'https://www.linkedin.com/in/rachitha-rai-70040317b/',
+      name: 'Sharan sk',
+      githubUsername:'sharansk792000',
+      instagramUsername:'sharanskindalkar',
+      twitterUsername:'ShaKindalkar',
+      linkedinURL:'https://www.linkedin.com/in/sharan-sk-89260919b',
    },
+   {
+         name: 'Avni Shyam',
+         githubUsername: 'avnishyam',
+         instagramUsername: 'avni.shyam',
+         twitterUsername: '@AvniShyam_2000',
+         linkedinURL: 'https://www.linkedin.com/in/avni-shyam/',
+    },
    {
       name: 'Vishnu N V',
       githubUsername:'carbonxx',
@@ -39,12 +38,13 @@ export const profileList = [
       linkedinURL:'',
    },
    {
-      name: 'Nithin Mahendran',
-      githubUsername: 'nithinmahendran',
-      instagramUsername: 'nithinmahendran',
-      twitterUsername: 'nithinmahendran',
-      linkedinURL: 'linkedin.com/nithinmahendran',
+        name: 'Nirmal GM',
+        githubUsername:'redfedted',
+        instagramUsername:'nirmal_g_m',
+        twitterUsername:'NirmalgMathew ',
+        linkedinURL:'https://www.linkedin.com/in/nirmal-george-mathew-170b62177/ ',
    },
+   
    {
       name: 'Gowtham P B',
       githubUsername:'GowthamPB',
@@ -73,26 +73,47 @@ export const profileList = [
       twitterUsername: 'Basavarajeshw20',
       linkedinURL: 'https://www.linkedin.com/in/basavarajeshwari-ambi-1b223016a/',
   },
- {
+  {
     name: 'K Anusha Rao',
     githubUsername: 'K-ANUSHA-RAO',
     instagramUsername: 'anu_sha_45',
     twitterUsername: '',
     linkedinURL: 'https://www.linkedin.com/in/k-anusha-rao-92074417a/',
-},
-{
+ },
+ {
    name: 'Sumanth Kumar S',
    githubUsername: 'SumanthKumarS',
    instagramUsername: 'sumanthshettigar20k',
    twitterUsername: '',
    linkedinURL: 'www.linkedin.com/in/sumanth-kumar-s-57248320a',
-   },
-   {
-      name: 'Akhilesh M',
-      githubUsername: 'akhilesh27',
-      instagramUsername: 'Akhilesh Naik',
-      twitterUsername: '',
-      linkedinURL: 'https://www.linkedin.com/in/akhilesh-naik-024475219/',
-      },
+ },
+ {
+   name: 'Akhilesh M',
+   githubUsername: 'akhilesh27',
+   instagramUsername: '_shadow_fiend__',
+   twitterUsername: '',
+   linkedinURL: 'https://www.linkedin.com/in/akhilesh-naik-024475219/',
+ },
+ {
+   name: 'Nithin Mahendran',
+   githubUsername: 'nithinmahendran',
+   instagramUsername: 'nithinmahendran',
+   twitterUsername: 'nithinmahendran',
+   linkedinURL: 'linkedin.com/nithinmahendran',
+},
+{
+  name: 'Akhilesh M',
+  githubUsername: 'akhilesh27',
+  instagramUsername: 'Akhilesh Naik',
+  twitterUsername: '',
+  linkedinURL: 'https://www.linkedin.com/in/akhilesh-naik-024475219/',
+  },
+  {
+  name: 'Rachitha Rai',
+  githubUsername:'RachithaRai',
+  instagramUsername:'rachitha_rai_',
+  twitterUsername:'',
+  linkedinURL:'https://www.linkedin.com/in/rachitha-rai-70040317b/',
+},
 
 ]
