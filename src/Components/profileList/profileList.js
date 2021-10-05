@@ -101,6 +101,13 @@ export const profileList = [
    twitterUsername: 'nithinmahendran',
    linkedinURL: 'linkedin.com/nithinmahendran',
 },
+   {
+      name: 'Rachitha Rai',
+      githubUsername:'RachithaRai',
+      instagramUsername:'rachitha_rai_',
+      twitterUsername:'',
+      linkedinURL:'https://www.linkedin.com/in/rachitha-rai-70040317b/',
+   },
       
 
 ]
