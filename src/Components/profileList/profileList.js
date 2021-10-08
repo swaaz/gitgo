@@ -53,13 +53,6 @@ export const profileList = [
       linkedinURL:'https://www.linkedin.com/in/gowtham-pb-325677191',
    },
    {
-      name: 'Fawaz Abid Hussain',
-      githubUsername: 'fazxza',
-      instagramUsername: 'fauwara',
-      twitterUsername: 'Fazxza',
-      linkedinURL: 'https://www.linkedin.com/mwlite/in/fawaz-abid-606962198',
-   },
-   {
       name: 'Deeksha Shetty',
       githubUsername: 'Dharmaksha',
       instagramUsername: '',
