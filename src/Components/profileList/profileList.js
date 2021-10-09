@@ -101,5 +101,12 @@ export const profileList = [
   twitterUsername:'',
   linkedinURL:'https://www.linkedin.com/in/rachitha-rai-70040317b/',
 },
+{
+   name:  'Fawaz Abid',
+   githubUsername: 'fauwara',
+   instagramUsername: 'fauwara',
+   twitterUsername: 'fazxza',
+   linkedinURL: '',
+},
 
 ]
