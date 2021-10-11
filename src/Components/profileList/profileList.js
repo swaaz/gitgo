@@ -38,6 +38,13 @@ export const profileList = [
       linkedinURL:'',
    },
    {
+      name:  'Prajwal Benedcict A',
+      githubUsername: 'BENEDICT9845',
+      instagramUsername: 'benedictprajwal',
+      twitterUsername: 'BENEDICT9845',
+      linkedinURL: 'https://www.linkedin.com/in/prajwal-benedict-a-048511186/',
+   },
+   {
         name: 'Nirmal GM',
         githubUsername:'redfedted',
         instagramUsername:'nirmal_g_m',
