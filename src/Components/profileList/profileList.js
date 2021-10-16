@@ -123,4 +123,12 @@ export const profileList = [
    linkedinURL: 'https://www.linkedin.com/in/monish-shetty-357392191',  
 },
 
+{
+   name: 'Satyam singh',
+   githubUsername:'satyammmmmm',
+   instagramUsername:'satyammmmmm_',
+   twitterUsername:'@satyam_singh12',
+   linkedinURL:'linkedin.com/in/satyam-singh-483673207 ',
+},
+
 ]
