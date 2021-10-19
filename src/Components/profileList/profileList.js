@@ -138,4 +138,12 @@ export const profileList = [
         linkedinURL: 'https://www.linkedin.com/in/haneena-atheeq-007/',
     },
 
+    {
+       name:  'Niveditha T',
+       githubUsername: 'nivedt',
+       instagramUsername: '',
+       twitterUsername: '@nzilch9',
+       linkedinURL: '-',
+    },
+
 ]
