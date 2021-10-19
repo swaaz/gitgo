@@ -131,4 +131,12 @@ export const profileList = [
    linkedinURL:'linkedin.com/in/satyam-singh-483673207 ',
 },
 
+{
+   name:  'Niveditha T',
+   githubUsername: 'nivedt',
+   instagramUsername: '',
+   twitterUsername: '@nzilch9',
+   linkedinURL: '-',
+   },
+
 ]
