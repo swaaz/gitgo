@@ -145,5 +145,12 @@ export const profileList = [
        twitterUsername: '@nzilch9',
        linkedinURL: '-',
     },
+    {
+       name:  'Manoj Naik',
+       githubUsername: 'Manojnaik19',
+       instagramUsername: '_manoj.naik_',
+       twitterUsername: '',
+       linkedinURL: 'https://www.linkedin.com/in/manoj-naik-35a718202/',
+    },
 
 ]
