@@ -31,13 +31,6 @@ export const profileList = [
         linkedinURL: 'https://www.linkedin.com/in/avni-shyam/',
     },
     {
-        name: 'Vishnu N V',
-        githubUsername: 'carbonxx',
-        instagramUsername: 'ig_carbonx',
-        twitterUsername: 'vishnu_nvx',
-        linkedinURL: '',
-    },
-    {
         name: 'Prajwal Benedcict A',
         githubUsername: 'BENEDICT9845',
         instagramUsername: 'benedictprajwal',
