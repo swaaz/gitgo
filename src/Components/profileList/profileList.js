@@ -152,5 +152,12 @@ export const profileList = [
        twitterUsername: '',
        linkedinURL: 'https://www.linkedin.com/in/manoj-naik-35a718202/',
     },
+    {
+       name:  'Sooraj S M',
+       githubUsername: 'soorajsm',
+       instagramUsername: 'sooraj05_',
+       twitterUsername: '',
+       linkedinURL: 'https://www.linkedin.com/in/sooraj-moger-588303208/',
+    },
 
 ]
