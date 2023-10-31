@@ -144,5 +144,12 @@ export const profileList = [
         twitterUsername: 'fazxza',
         linkedinURL: '',
     },
+    {
+        name: 'Monish Shetty',
+        githubUsername: 'alpha-oss',
+        instagramUsername: 'shetty_monish_077',
+        twitterUsername: 'MonishShetty07',
+        linkedinURL: 'https://www.linkedin.com/in/monish-shetty-357392191',
+    },
 
 ]
